@@ -1,0 +1,12 @@
+<h1>Add New Order</h1>
+
+<p><label for="book_title">Yor Name:</label>
+<%= text_field 'book', 'title' %></p>
+<p><label for="book_price">Your Facility:</label>
+<%= text_field 'book', 'price' %></p>
+
+
+<p><label for="book_description">Your Order:</label><br/>
+<%= text_area 'book', 'description' %></p>
+<%= link_to "Place you order!", '#', class: "btn btn-large btn-primary" %>
+
