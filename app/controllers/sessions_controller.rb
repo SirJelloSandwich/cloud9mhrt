@@ -18,6 +18,5 @@ def new
     redirect_to root_url
   end
   
-  def sign_out
-  end
+  
 end
